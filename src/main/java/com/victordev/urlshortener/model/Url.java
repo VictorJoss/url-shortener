@@ -12,7 +12,7 @@ import java.time.LocalDateTime;
 @Entity
 @Getter
 @Setter
-public class url {
+public class Url {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
