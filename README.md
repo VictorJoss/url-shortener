@@ -45,7 +45,13 @@ The URL shortener takes a long URL as input and generates a shortened version co
   "url": "http://localhost:8080/gfcJF"
 }
 ```
+- **Error response (400) If the request body is null or empty:**
 
+```json
+{
+  "error": "Solicitud inválida: falta el campo 'url' o el cuerpo de la solicitud es nulo."
+}
+```
 
 
 #### Get short url
@@ -67,13 +73,7 @@ The URL shortener takes a long URL as input and generates a shortened version co
 
 ```
 
-- **Error response (404) If the shortened URL is not found:**
-
-```json
-{
-  
-}
-```
+- **Error response (404) If the shortened URL is not found**
 
 ## Contact
 
