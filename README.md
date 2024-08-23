@@ -6,6 +6,12 @@
 
 The URL shortener takes a long URL as input and generates a shortened version containing 5 to 10 characters, using only letters and numbers. The shortened URL is stored in the database along with an expiration date. When the shortened URL (e.g., https://localhost:8080/DXB6V) is accessed, it redirects to the original URL saved in the database. If the shortened URL is not found, a 404 (Not Found) HTTP status code is returned.
 
+## Features
+
+- [ ] Converts long URLs into short versions (5-10 characters).
+- [ ] Accessing the short URL redirects to the original or returns a 404 if not found.
+- [ ] Shortened URLs have an expiration date stored in the database.
+
 
 ## Technologies Used
 
